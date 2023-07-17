@@ -74,13 +74,45 @@ nav li a{
         flex-direction: column;
     }
 }
-/* tablet */
+/* tablet */ 
  
     @media screen  and (min-width:576px) and(max-width:960px){
         nav{
             flex-direction: column;
         }
     
-
+    }
     
+/* main */
+main{
+max-width: 1440px;
+margin: 0 auto;
+
+}
+/* team */
+.team{
+    display: flex;
+    align-items: center;
+
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+}
+.team-anu{
+    padding-left: 70px;
+
+    padding-right: 70px;
+}
+.team-title{
+    font-size: 2.8rem;
+}
+.team-title.lam{
+    color: #727272;
+    font-weight: 500;
+}
+.team-title.you{
+    color: #ff900e;
+    font-weight: 700px;
 }
